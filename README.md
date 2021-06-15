@@ -10,6 +10,7 @@ Kaggle contains a Brazilian ecommerce public dataset of orders made at Olist Sto
 The dataset has information of 100k orders from 2016 to 2018 made at multiple marketplaces in Brazil. Its features allows viewing an order from multiple dimensions: from order status, price, payment and freight performance to customer location, product attributes and finally reviews written by customers. Olist also released a geolocation dataset that relates Brazilian zip codes to lat/lng coordinates. This is real commercial data, it has been anonymised, and references to the companies and partners in the review text have been replaced with the names of Game of Thrones great houses. The data for this project was sourced from Kaggle:
 
 https://www.kaggle.com/olistbr/brazilian-ecommerce/home (9 tables)
+
 https://www.kaggle.com/olistbr/marketing-funnel-olist (2 tables)
 
 For this project, we'll be analyzing and trying to predict bad customer reviews. Customer reviews range from 1 (worst) to 5 (best). We have defined bad review as either a 1 or 2 review score which when combined represent 13.2% of all reviews. Our business objective includes the follow requirements:
@@ -36,6 +37,6 @@ Below is a list of the contents of this repository - instructions for using them
 - .gitignore: A hidden file that tells git to not track certain files and folders
 
 
-[1]: <https://github.com/cutterback/p04-twitter-sentiment-nlp/blob/2e65c792fe16bcd162b053ff61f23ca6f35d46de/Tweet_Sentiment_Analysis_Exec_Summary.pdf> "Olist Predicting Bad Customer Reviews Executive Summary"
-[2]: <https://github.com/cutterback/p04-twitter-sentiment-nlp/blob/2e65c792fe16bcd162b053ff61f23ca6f35d46de/Twitter-Sentiment-Analysis-NLP.ipynb> "Jupyter Notebook Olist Customer Review Prediction Model" 
+[1]: <https://github.com/cutterback/p05-olist-customer-rating-prediction/blob/532920f813e90bc82f08f861534836ec2b578054/Olist_Bad_Customer_Reviews_Prediction.pdf> "Olist Predicting Negative Customer Reviews Executive Summary"
+[2]: <https://github.com/cutterback/p05-olist-customer-rating-prediction/blob/532920f813e90bc82f08f861534836ec2b578054/Olist_Customer_Rating_Model.ipynb> "Jupyter Notebook Olist Customer Review Prediction Model" 
 [3]: <https://towardsdatascience.com/predict-customer-churn-with-precision-56932ae0e5e3?sk=3c42d8b0df41d75270a14d7aab819dd7> "Towards Data Science Article - Predict Customer Churn With Precision" 
