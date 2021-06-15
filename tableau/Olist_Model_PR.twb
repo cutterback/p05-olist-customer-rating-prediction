@@ -215,6 +215,8 @@
             <datasource caption='p05_scores_comb' name='federated.0n1wums1v78egr1c2qk121s7a8p1' />
           </datasources>
           <datasource-dependencies datasource='federated.0n1wums1v78egr1c2qk121s7a8p1'>
+            <column caption='Acc' datatype='real' name='[acc]' role='measure' type='quantitative' />
+            <column caption='Auc' datatype='real' name='[auc]' role='measure' type='quantitative' />
             <column caption='Model' datatype='string' name='[model]' role='dimension' type='nominal'>
               <aliases>
                 <alias key='&quot;ab&quot;' value='AdaBoost' />
@@ -230,6 +232,8 @@
             <column-instance column='[model]' derivation='None' name='[none:model:nk]' pivot='key' type='nominal' />
             <column caption='Precision' datatype='real' name='[prec]' role='measure' type='quantitative' />
             <column caption='Recall' datatype='real' name='[rec]' role='measure' type='quantitative' />
+            <column-instance column='[acc]' derivation='Sum' name='[sum:acc:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[auc]' derivation='Sum' name='[sum:auc:qk]' pivot='key' type='quantitative' />
             <column-instance column='[prec]' derivation='Sum' name='[sum:prec:qk]' pivot='key' type='quantitative' />
             <column-instance column='[rec]' derivation='Sum' name='[sum:rec:qk]' pivot='key' type='quantitative' />
           </datasource-dependencies>
@@ -262,6 +266,8 @@
             <mark-sizing mark-sizing-setting='marks-scaling-off' />
             <encodings>
               <color column='[federated.0n1wums1v78egr1c2qk121s7a8p1].[sum:prec:qk]' />
+              <tooltip column='[federated.0n1wums1v78egr1c2qk121s7a8p1].[sum:auc:qk]' />
+              <tooltip column='[federated.0n1wums1v78egr1c2qk121s7a8p1].[sum:acc:qk]' />
               <text column='[federated.0n1wums1v78egr1c2qk121s7a8p1].[none:model:nk]' />
               <lod column='[federated.0n1wums1v78egr1c2qk121s7a8p1].[none:model:nk]' />
             </encodings>
