@@ -2,7 +2,7 @@
 
 ## Medium Blog Post - Towards Data Science
 
-For a narrative summary and key insights on this project, please read my blog post Predict Customer Churn With Precision on Medium.
+For a narrative summary and key insights on this project, please read my blog post [Using Data Science to Predict Negative Customer Reviews][3] on Medium.
 
 ## Business Problem
 Kaggle contains a Brazilian ecommerce public dataset of orders made at Olist Store. This dataset was generously provided by Olist, the largest department store in Brazilian marketplaces. Olist connects small businesses from all over Brazil to channels without hassle and with a single contract. Those merchants are able to sell their products through the Olist Store and ship them directly to the customers using Olist logistics partners.
@@ -39,4 +39,4 @@ Below is a list of the contents of this repository - instructions for using them
 
 [1]: <https://github.com/cutterback/p05-olist-customer-rating-prediction/blob/532920f813e90bc82f08f861534836ec2b578054/Olist_Bad_Customer_Reviews_Prediction.pdf> "Olist Predicting Negative Customer Reviews Executive Summary"
 [2]: <https://github.com/cutterback/p05-olist-customer-rating-prediction/blob/532920f813e90bc82f08f861534836ec2b578054/Olist_Customer_Rating_Model.ipynb> "Jupyter Notebook Olist Customer Review Prediction Model" 
-[3]: <https://towardsdatascience.com/predict-customer-churn-with-precision-56932ae0e5e3?sk=3c42d8b0df41d75270a14d7aab819dd7> "Towards Data Science Article - Predict Customer Churn With Precision" 
+[3]: <https://medium.com/@chuckutterback/using-data-science-to-predict-negative-customer-reviews-2abbdfbf3d82> "Towards Data Science Article - Using Data Science to Predict Negative Customer Reviews" 
