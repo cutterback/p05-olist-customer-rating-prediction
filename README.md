@@ -39,4 +39,4 @@ Below is a list of the contents of this repository - instructions for using them
 
 [1]: <https://github.com/cutterback/p05-olist-customer-rating-prediction/blob/532920f813e90bc82f08f861534836ec2b578054/Olist_Bad_Customer_Reviews_Prediction.pdf> "Olist Predicting Negative Customer Reviews Executive Summary"
 [2]: <https://github.com/cutterback/p05-olist-customer-rating-prediction/blob/532920f813e90bc82f08f861534836ec2b578054/Olist_Customer_Rating_Model.ipynb> "Jupyter Notebook Olist Customer Review Prediction Model" 
-[3]: <https://medium.com/@chuckutterback/using-data-science-to-predict-negative-customer-reviews-2abbdfbf3d82> "Towards Data Science Article - Using Data Science to Predict Negative Customer Reviews" 
+[3]: <https://towardsdatascience.com/using-data-science-to-predict-negative-customer-reviews-2abbdfbf3d82?sk=a084b6fb96f42291d3db5780dde47108> "Towards Data Science Article - Using Data Science to Predict Negative Customer Reviews" 
